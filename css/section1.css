@@ -1,0 +1,27 @@
+.navMainCont{
+  padding: 0px 30px;
+}
+
+.navSubCont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navSubCont li{
+  list-style: none;
+}
+
+.navSubCont li:first-child img{
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.internalNavCont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}

@@ -1,86 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  <section>
-    <nav class="navMainCont">
-      <ul class="navSubCont">
-        <li><img src="design/images/Logo.png"></li>
-        <li>
-          <ul class="internalNavCont">
-            <li>Wedding Cards </li>
-            <li>Birthday Cards </li>
-            <li>Feeling Cards</li>
-            <li>Anniversary Cards</li>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="allSectionCont">
+      <section class="sectionOneCont">
+        <nav class="navMainCont">
+          <ul class="navSubCont">
+            <li>
+              <img src="design/images/Logo.png" />
+            </li>
+            <li>
+              <ul class="internalNavCont">
+                <li>Wedding Cards</li>
+                <li>Birthday Cards</li>
+                <li>Feeling Cards</li>
+                <li>Anniversary Cards</li>
+              </ul>
+            </li>
+            <li>
+              <span>Login | Signup</span>
+            </li>
           </ul>
-        </li>
-        <li>Login | Signup</li>
-      </ul>
-    </nav>
-  </section>
-  <section>
-    <div class="titleCard">
-      <h3>Digital Card Detail</h3>
-    </div>
-    <div class="card">
-      <div class="cardLeft">
-        <div class="cardDesign">
-          <img src="./design/images/Page2.jpg">
+        </nav>
+      </section>
+      <section class="sectionTwoCont">
+        <div class="titleCard">
+          <h3>Digital Card Detail</h3>
         </div>
-        <ul class="cardScroll">
-          <li></li>
-          <li></li>
-          <li></li>
+        <div class="card">
+          <div class="cardLeft">
+            <div class="cardDesignCont">
+              <img id="imageDesignOne" src="./design/images/Page1.jpg" />
+              <img id="imageDesignTwo" src="./design/images/Page2.jpg" />
+              <img id="imageDesignThree" src="./design/images/Page3.jpg" />
+            </div>
+            <!-- <ul class="cardScroll">
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul> -->
+          </div>
+          <div class="cardRight">
+            <h2 class="cardTitle">Card Title</h2>
+            <p class="cardPriceCont">
+              <span class="newPrice">$499</span>
+              <span class="oldPrice">$2000</span>
+              <span class="discount">75%Off</span>
+            </p>
+            <p class="cardDescription">
+              Donec eu ornare mi. Sed finibus condimentum mauris, ut dictum eros
+              maximus vitae. Nullam condimentum tortor ac elit feugiat iaculis.
+              Aenean mauris nisl, blandit
+            </p>
+            <p class="cardCarouselBtn">Try this Card</p>
+          </div>
+        </div>
+      </section>
+      <section class="sectionThreeCont">
+        <h2>Features</h2>
+        <ul class="featureCardCont">
+          <li class="featureCard">
+            <div class="featureCardTop"></div>
+            <p class="featureCardBottom">
+              <span>Create your card in just 5 mins</span>
+            </p>
+          </li>
+          <li class="featureCard">
+            <div class="featureCardTop"></div>
+            <p class="featureCardBottom">
+              <span>Customize the Text with "Edit this Page" Option</span>
+            </p>
+          </li>
+          <li class="featureCard">
+            <div class="featureCardTop"></div>
+            <p class="featureCardBottom">
+              <span>Editing is available after purchase also</span>
+            </p>
+          </li>
         </ul>
-      </div>
-      <div class="cardRight">
-        <h2 calss="cardTitle">
-          Card Title
-        </h2>
-        <p class="cardPriceCont">
-          <span class="newPrice">$499</span>
-          <span class="oldPrice">$2000</span>
-          <span class="discount">75%Off</span>  
-        </p>
-        <p class="cardDescription">
-          Donec eu ornare mi. Sed finibus
-          condimentum mauris, ut dictum eros
-          maximus vitae. Nullam 
-          condimentum tortor ac elit feugiat
-          iaculis. Aenean mauris nisl, blandit
-        </p>
-        <p class="cardCarouselBtn">
-          Try this Card
-        </p>
-      </div>
-    </div>
-  </section>
-  <section>
-    <h2>Features</h2>
-    <ul class="featureCard">
-      <li>
-        <div></div>
-        <p>Create your card
-          in just 5 mins
-        </p>
-      </li>
-      <li>
-        <div></div>
-        <p>Customize the Text
-          with "Edit this Page" Option
-        </p>
-      </li>
-      <li>
-        <div></div>
-        <p>>Editing is available
-          after purchase also</p>
-      </li>
-    </ul>
-  </section>
-</body>
+      </section>
+    </main>
+  </body>
 </html>
