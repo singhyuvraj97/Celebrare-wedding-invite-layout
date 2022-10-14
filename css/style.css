@@ -4,14 +4,18 @@
 
 @import "./section3.css";
 
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: 'Paprika', cursive;
 }
 
 .allSectionCont{
   width: 100vw;
 }
+
+
 

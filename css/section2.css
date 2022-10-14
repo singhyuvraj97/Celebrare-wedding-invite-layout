@@ -14,6 +14,7 @@
   border-radius: 50px;
   border: 0px;
   background-image: url("../design/images/Background.jpg");
+  text-transform: capitalize;
 }
 
 .card{
@@ -23,6 +24,7 @@
   border-radius: 50px;
   border: 1px solid #868686;
   background-color: #ffffff;
+  box-shadow: 1px 1px 5px 0px rgb(177, 177, 177);
   padding: 40px 80px;
   display: flex;
   justify-content: center;
@@ -126,7 +128,8 @@
   border-radius: 20px;
 }
 
-@media screen and (max-width: 864px){
+@media screen and (max-width: 1000px){
+
   .sectionTwoCont{
     margin-bottom: 120px;
   }
@@ -139,6 +142,7 @@
 
   .card{
     margin: -120px auto;
+    padding: 5% 10%;
     border-radius: 15px;
     flex-direction: column;
     justify-content: space-evenly;
@@ -157,6 +161,56 @@
   }
 
   .cardRight{
-    width: 100% !important
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
   }
+
+  .cardTitle{
+    align-self: center;
+    margin: 0px;
+    padding: 5% 5% 0px 5%;
+    border-top: 1px solid #7f7f7f;
+    order: 3;
+    font-size: calc(100vw * 0.04);
+  }
+
+  .cardPriceCont{
+    padding: 0px 8%;
+    margin: 0px;
+    order: 2;
+    align-items: center;
+  }
+
+  .newPrice{
+    font-size: calc(100vw * 0.04);
+  }
+
+  .oldPrice{
+    font-size: calc(100vw * 0.03);
+  }
+
+  .discount{
+    font-size: calc(100vw * 0.04);
+  }
+
+  .cardDescription{
+    margin: 0px;
+    padding: 0px 8%;
+    font-size: calc(100vw * 0.025);
+    font-weight: light;
+    text-align: center;
+    order: 4;
+  }
+
+  .cardCarouselBtn{
+    padding: 4% 27%;
+    font-size: calc(100vw * 0.04);
+    margin: 0px;
+    order: 1;
+    border-radius: 50px;
+  }
+
+
 }
