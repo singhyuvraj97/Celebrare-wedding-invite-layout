@@ -4,17 +4,20 @@
 }
 
 .titleCard{
-  margin: 50px auto;
+  margin:auto;
   padding: 20px 40px;
   width: 90%;
   height: 300px;
-  text-align: center;
-  color: white;
-  font-size: xx-large;
   border-radius: 50px;
   border: 0px;
   background-image: url("../design/images/Background.jpg");
+}
+
+.titleCard h3{
   text-transform: capitalize;
+  text-align: center;
+  color: white;
+  font-size: large;
 }
 
 .card{
@@ -46,8 +49,6 @@
 .cardDesignCont img{
   margin-bottom: 20px;
   display: block;
-  width: 180px;
-  height: 260px;
   border: 4px solid #ffffff;
   outline: 2px solid grey;
   border-radius: 2px;
@@ -55,6 +56,8 @@
 }
 
 #imageDesignOne{
+  width: 180px;
+  height: 260px;
   position: absolute;
   top: 22px;
   left: 30px;
@@ -131,18 +134,25 @@
 @media screen and (max-width: 1000px){
 
   .sectionTwoCont{
-    margin-bottom: 120px;
+    margin-bottom: 40px;
   }
 
   .titleCard{
-    height: 120px;
-    font-size: 1rem;
+    height: calc(100vw * 0.335);
+    margin: auto;
+    padding: calc(100vw * 0.0556)  calc(100vw * 0.0556*2);
     border-radius: 15px;
   }
 
+  .titleCard h3{
+    font-size: calc(100vw * 0.0499);
+  }
+
   .card{
-    margin: -120px auto;
-    padding: 5% 10%;
+    width: 85%;
+    margin: 0px auto 0px auto;
+    margin-top: calc(-100vw * 0.0556*3);
+    padding: 6% 12%;
     border-radius: 15px;
     flex-direction: column;
     justify-content: space-evenly;
@@ -154,17 +164,30 @@
     width: 100%;
   }
 
+  .cardDesignCont{
+    height: calc(100vw * 0.84);
+  }
+
   #imageDesignOne{
-    top: 20px;
-    left: 7px;
+    width: calc(100vw * 0.529);
+    height: calc(100vw * 0.75);
+    top: calc(100vw * 0.06);
+    left: calc(100vw * 0.02);
     z-index: 5;
+  }
+
+  #imageDesignTwo{
+    width: calc(100vw * 0.469);
+    height: calc(100vw * 0.64999);
+    top: calc(100vw * 0.14);
+    left: calc(100vw * 0.42);
   }
 
   .cardRight{
     width: 100% !important;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
   }
 
   .cardTitle{
@@ -198,6 +221,7 @@
   .cardDescription{
     margin: 0px;
     padding: 0px 8%;
+    color: #6f6f6f;
     font-size: calc(100vw * 0.025);
     font-weight: light;
     text-align: center;
@@ -205,7 +229,7 @@
   }
 
   .cardCarouselBtn{
-    padding: 4% 27%;
+    padding: 6% 27%;
     font-size: calc(100vw * 0.04);
     margin: 0px;
     order: 1;
