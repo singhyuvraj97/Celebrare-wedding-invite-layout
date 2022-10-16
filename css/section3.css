@@ -40,12 +40,17 @@
 
 @media screen and (max-width: 1000px){
 
+  .sectionThreeCont{
+    margin-bottom: calc(100vw*0.15);
+  }
+
   .sectionThreeCont h2{
     margin: 0px;
   }
 
   .featureCardCont{
     background-color: white;
+    margin: auto;
     width: 85%;
     padding: calc(100vw*0.02) calc(100vw*0.08);
     border-radius: 20px;
@@ -82,6 +87,5 @@
     font-size: calc(100vw*0.035);
     padding: 0px 0px 0px calc(100vw*0.05);
   }
-
 
 }
