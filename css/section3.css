@@ -1,16 +1,18 @@
 .sectionThreeCont{
+  margin-bottom: calc(100vw*0.1);
   width: 100%;
   text-align: center;
 }
 
 .sectionThreeCont h2{
-  margin: 50px auto 10px auto;
+  margin: auto;
+  margin-bottom: calc(100vw*0.02);
 }
 
 .featureCardCont{
-  margin: 0px auto 20px auto;
+  margin: auto;
   width: 80%;
-  padding: 20px;
+  padding: calc(100vw*0.02);
   border-radius: 50px;
   border: 1px solid #868686;
   box-shadow: 1px 1px 5px 0px rgb(177, 177, 177);
@@ -23,9 +25,8 @@
   color: black;
   text-align: center;
   list-style: none;
-  max-width: 220px;
-  min-width: 200px;
-  height: 250px;
+  width: calc(100vw*0.22);
+  height: calc(100vw*0.25);
   background-color: #ffffff;
 }
 
