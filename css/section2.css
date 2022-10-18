@@ -1,13 +1,13 @@
 .sectionTwoCont{
   width: 100%;
-  margin-bottom: 250px;
+  margin-bottom: calc(100vw*0.25);
 }
 
 .titleCard{
   margin:auto;
-  padding: 20px 40px;
+  padding: calc(100vw*0.02) calc(100vw*0.04);
   width: 90%;
-  height: 300px;
+  height: calc(100vw*0.298);
   border-radius: 50px;
   border: 0px;
   background-image: url("../design/images/Background.jpg");
@@ -17,18 +17,18 @@
   text-transform: capitalize;
   text-align: center;
   color: white;
-  font-size: large;
+  font-size: calc(100vw*0.022);
 }
 
 .card{
-  margin:-250px auto;
+  margin:calc(-100vw*0.24) auto;
   width: 80%;
   text-align: center;
   border-radius: 50px;
   border: 1px solid #868686;
   background-color: #ffffff;
   box-shadow: 1px 1px 5px 0px rgb(177, 177, 177);
-  padding: 40px 80px;
+  padding: calc(100vw * 0.038) calc(100vw * 0.075);
   display: flex;
   justify-content: center;
   align-items: stretch;
@@ -43,11 +43,9 @@
   /* background-color: aqua; */
   position: relative;
   width: 100%;
-  height: 300px;
 }
 
 .cardDesignCont img{
-  margin-bottom: 20px;
   display: block;
   border: 4px solid #ffffff;
   outline: 2px solid grey;
@@ -56,29 +54,29 @@
 }
 
 #imageDesignOne{
-  width: 180px;
-  height: 260px;
+  width: calc(100vw*0.175);
+  height: calc(100vw*0.25);
   position: absolute;
-  top: 22px;
-  left: 30px;
+  top: calc(100vw * 0.021);
+  left: calc(100vw*0.03);
   z-index: 5;
 }
 
 #imageDesignTwo{
-  width: 160px;
-  height: 220px;
+  width: calc(100vw*0.168);
+  height: calc(100vw*0.216);
   position: absolute;
-  top: 50px;
-  left: 150px;
+  top: calc(100vw*0.05);
+  left: calc(100vw*0.149);
   z-index: 4;
 }
 
 #imageDesignThree{
-  width: 120px;
-  height: 180px;
+  width: calc(100vw*0.127);
+  height: calc(100vw*0.181);
   position: absolute;
-  top: 80px;
-  left: 260px;
+  top: calc(100vw*0.0799);
+  left: calc(100vw*0.258);
   z-index: 3;
 }
 
@@ -88,24 +86,25 @@
 }
 
 .cardTitle{
-  margin-bottom: 20px;
+  font-size: calc(100vw*0.024);
+  margin-bottom: calc(100vw*0.02);
 }
 
 .cardPriceCont{
-  margin-bottom: 20px;
+  margin-bottom: calc(100vw*0.02);
   display: flex;
   gap: 5px;
 }
 
 .newPrice{
-  font-size: 1.4rem;
+  font-size: calc(100vw*0.0228);
   font-weight: bold;
 }
 
 .oldPrice{
   text-decoration: line-through;
   text-decoration-thickness: 2px;
-  font-size: 1.2rem;
+  font-size: calc(100vw*0.017);
   font-style: italic;
   font-weight: bolder;
 }
@@ -114,18 +113,18 @@
   margin-left: auto;
   color: #00da10;
   font-style: italic;
-  font-size: 1.2rem;
+  font-size: calc(100vw*0.02);
 }
 
 .cardDescription{
-  margin-bottom: 20px;
+  margin-bottom: calc(100vw*0.02);
   text-align: left;
-  font-size: 0.8rem;
+  font-size: calc(100vw*0.013);
 }
 
 .cardCarouselBtn{
-  padding: 20px 40px;
-  font-size: 1.3rem;
+  padding: calc(100vw*0.02) calc(100vw*0.04);
+  font-size: calc(100vw*0.021);
   color: white;
   background-color: black;
   border-radius: 20px;
